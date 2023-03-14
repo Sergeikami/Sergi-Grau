@@ -16,4 +16,4 @@ position = Vector2( -223, 37 )
 position = Vector2( 583, 5 )
 
 [node name="Cubitos" parent="." instance=ExtResource( 4 )]
-position = Vector2( 505, -5 )
+position = Vector2( 501, -24 )
