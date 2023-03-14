@@ -3,8 +3,8 @@ extends KinematicBody2D
 var moviment := Vector2.RIGHT 
 var velocitat := 15000
 var direccio := Vector2.RIGHT
-var salt := Vector2.UP * 500
-var gravetat := Vector2.DOWN * 1000
+var salt := Vector2.UP * 750
+var gravetat := Vector2.DOWN * 2500
 
 
 

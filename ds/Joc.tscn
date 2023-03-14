@@ -13,7 +13,19 @@
 position = Vector2( -223, 37 )
 
 [node name="Area2D" parent="." instance=ExtResource( 3 )]
-position = Vector2( 583, 5 )
+position = Vector2( 584, 5 )
 
 [node name="Cubitos" parent="." instance=ExtResource( 4 )]
-position = Vector2( 501, -24 )
+position = Vector2( 644, -24 )
+
+[node name="Cubitos2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 687, -24 )
+
+[node name="Cubitos3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 835, -110 )
+
+[node name="Cubitos4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 878, -67 )
+
+[node name="Cubitos5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 921, -24 )
