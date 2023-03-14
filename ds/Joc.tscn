@@ -13,7 +13,19 @@
 position = Vector2( -223, 37 )
 
 [node name="Area2D" parent="." instance=ExtResource( 3 )]
-position = Vector2( 584, 5 )
+position = Vector2( 781, 5 )
+
+[node name="Area2D2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 871, 5 )
+
+[node name="Area2D3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1252, 5 )
+
+[node name="Area2D4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1342, 5 )
+
+[node name="Area2D5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1432, 5 )
 
 [node name="Cubitos" parent="." instance=ExtResource( 4 )]
 position = Vector2( 644, -24 )
@@ -29,3 +41,39 @@ position = Vector2( 878, -67 )
 
 [node name="Cubitos5" parent="." instance=ExtResource( 4 )]
 position = Vector2( 921, -24 )
+
+[node name="Cubitos6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1115, -67 )
+
+[node name="Cubitos7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1115, -24 )
+
+[node name="Cubitos8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1158, -67 )
+
+[node name="Cubitos9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1158, -24 )
+
+[node name="Cubitos10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1287, -110 )
+
+[node name="Cubitos11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1330, -110 )
+
+[node name="Cubitos12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1480, -67 )
+
+[node name="Cubitos13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1480, -24 )
+
+[node name="Cubitos14" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1566, -67 )
+
+[node name="Cubitos15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1523, -67 )
+
+[node name="Cubitos16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1609, -24 )
+
+[node name="Cubitos17" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1609, -67 )
