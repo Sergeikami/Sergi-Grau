@@ -1,16 +1,26 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 516.5, 20 )
+extents = Vector2( 27662, 72 )
+
+[sub_resource type="StreamTexture" id=2]
+flags = 4
+load_path = "res://.import/Captura.PNG-6bd05a59bf5cd20d86af792eeef8de19.stex"
 
 [node name="StaticBody2D" type="StaticBody2D"]
+scale = Vector2( 0.25, 0.25 )
 
-[node name="ColorRect" type="ColorRect" parent="."]
-margin_left = -20.0
-margin_top = -20.0
-margin_right = 1013.0
-margin_bottom = 20.0
+[node name="ColorRect2" type="ColorRect" parent="."]
+margin_left = -72.0
+margin_top = -72.0
+margin_right = 55252.0
+margin_bottom = 72.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 496.5, 0 )
+position = Vector2( 27590, 0 )
 shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 27590, 1.43051e-06 )
+scale = Vector2( 412.806, 1.00741 )
+texture = SubResource( 2 )
