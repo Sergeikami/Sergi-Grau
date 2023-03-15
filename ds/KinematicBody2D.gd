@@ -22,3 +22,5 @@ func _process(delta):
 		moviment += salt
 	
 	moviment = move_and_slide(moviment, Vector2.UP)
+	
+	
