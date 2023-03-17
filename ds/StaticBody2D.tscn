@@ -3,7 +3,7 @@
 [ext_resource path="res://cubo.PNG" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 29022, 72 )
+extents = Vector2( 31262, 72 )
 
 [node name="StaticBody2D" type="StaticBody2D"]
 scale = Vector2( 0.25, 0.25 )
@@ -11,14 +11,14 @@ scale = Vector2( 0.25, 0.25 )
 [node name="ColorRect2" type="ColorRect" parent="."]
 margin_left = -2792.0
 margin_top = -72.0
-margin_right = 55252.0
+margin_right = 59732.0
 margin_bottom = 72.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 26230, 0 )
+position = Vector2( 28470, 0 )
 shape = SubResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 26230, 3.8147e-06 )
-scale = Vector2( 558.039, 1.25926 )
+position = Vector2( 28470, 3.8147e-06 )
+scale = Vector2( 601.116, 1.25926 )
 texture = ExtResource( 1 )
